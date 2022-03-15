@@ -1,6 +1,3 @@
-//Jemil Modha - 500969726
-//Turja (Saibya Sachi) Chowdhury - 500883847
-
 pub fn deal(perm:[u32;9])->Vec<String>{
     let mut firstHand=&mut [perm[0], perm[2], perm[4], perm[5], perm[6], perm[7],perm[8]];
     let mut secondHand=&mut [perm[1], perm[3], perm[4], perm[5], perm[6], perm[7],perm[8]];
